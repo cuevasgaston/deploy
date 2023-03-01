@@ -1,0 +1,116 @@
+  
+  .danger {
+    font-size: 10px;
+    color: red;
+    margin-left: 10em;
+  }
+ 
+ .home {
+  /* Variables */
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+.home:hover {
+  background-color: rgba(180, 18, 18, 0.575);
+  transition: background-color, 1s;
+}
+
+.create {
+  /* Variables */
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+.create:hover {
+  background-color: rgba(180, 18, 18, 0.575);
+  transition: background-color, 1s;
+}
+
+.form {
+  font-weight: bold;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px 40px;
+  background-color: #8a3333ee;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.192);
+  transition: .2s linear;
+}
+
+.form:hover {
+  transform: scale(1.1);
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: -10.6px;
+}
+
+.input {
+  height: 25px;
+  width: 100%;
+  border: 0.5px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: .2s linear;
+  position: relative;
+}
+
+.input:focus {
+  outline: none;
+  background-color: rgba(173, 173, 173, 0.233);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.137);
+}
+
+ .checks{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: 14px;
+font-weight: bold;
+color: rgb(8, 10, 9);
+background-color: rgb(213, 240, 214);
+margin-bottom: 30px;
+margin-top: 30px;
+height: 25%;
+border-radius: 20px;
+border:15px solid lightblue; 
+ }
+
+
+ .todo{
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  
+ }
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
